@@ -18,8 +18,8 @@ app_selection = st.sidebar.selectbox(
 
 # Render the selected app
 if app_selection == "Phone Validation Application":
-    ferb_main()
-elif app_selection == "Social Media Search Application":
     kizunafinder_main()
+elif app_selection == "Social Media Search Application":
+    ferb_main()
 else:
     st.write("Please select an app from the dropdown.")
