@@ -3,8 +3,8 @@ import os
 import streamlit as st
 
 #from phoneintel.app import main as phoneintel_main
-from kizunafinder.app import main as kizunafinder_main
-from ferb.app import main as ferb_main
+from phone_validation.app import main as kizunafinder_main
+from social_media.app import main as ferb_main
 
 # Set page configuration
 st.set_page_config(page_title="Multi-Tool App", layout="wide")
